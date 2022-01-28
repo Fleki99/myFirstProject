@@ -1,0 +1,575 @@
+body{
+    margin: none;
+}
+
+.main-section{
+    width: 100%;
+    height: 840px;
+    background: url("../img/main-background.jpg") no-repeat center center / cover;
+}
+
+.main-section-div{
+    width: 100%;
+    margin: auto;
+    padding: 28px 0 75px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 164px;
+}
+
+.logo{
+    margin-left: 97px;
+    height: 27px;
+    width: 107px;
+    background: url("../img/Thrivetalk.png") no-repeat center center / contain;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+h1{
+    margin: 0;
+}
+
+.logo a{
+    width: 100%;
+    height: 100%;
+}
+
+.main-sector-btn{
+    height: 50px;
+    width: 150px;
+    background: #62D0DF;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+}
+
+
+.main-sector-menu{
+    display: flex;
+    flex-direction: row;
+    width: 233px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.main-sector-menu li{
+    font-size: 14px;
+    line-height: 16px;
+    color: #22356f;
+}
+
+.main-section-text{
+    width: 530px;
+    margin-left: 100px;
+
+}
+
+.main-section-text h1{
+    font-size: 43px;
+    line-height: 68px;
+    /* letter-spacing: -0.35em; */
+    color: #22356f;
+    margin-bottom: 50px;
+}
+
+.main-section-text p{
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356f;
+    margin-bottom: 63px;
+}
+
+.main-sector-btn2{
+    width: 150px;
+    height: 50px;
+    background-color: #F9B640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    letter-spacing: - 0.1em;
+    color: #ffffff;
+}
+
+.logo__logo2{
+    margin-bottom: 26px;
+    background: url(../img/Thrivetalk.png) no-repeat center center / contain;
+    height: 27px;
+    width: 107px;
+    margin-top: 150px;
+}
+
+.second-section{
+    background: url(../img/blue-girl-background.jpg)no-repeat center right / contain;
+    width: 100%;
+    height: 607px;
+}
+
+.second-section-blue{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: #FFFFFF;
+}
+
+h2{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 178px;
+    margin-top: 151px;
+    width: 223px;
+    height: 51px;
+    left: 179px;
+    top: 993px;
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+}
+
+.second-section-blue-text p{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: 555px;
+    height: 235px; */
+    margin-left: -217px;
+    margin-top: 340px;
+    width: 395px;
+    height: 15px;
+    font-size: 19px;
+    line-height: 27px;
+
+}
+
+
+.section-three{
+    width: 100%;
+    height: 361px;
+}
+
+.section-three-title{
+    margin-top: 156px;
+    margin-left: 106px;
+    color: #22356F;
+}
+
+.section-three-text{
+    margin-left: 355px;
+    width: 592px;
+    height: 210px;
+    margin-top: -54px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+}
+
+.section-three-text2{
+   
+    height: 21px;
+    left: 620px;
+    top: 1903px;
+    color: rgba(34, 53, 111, 0.5);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+.section-four{
+    width: 100%;
+    height: 360px;
+    /* display: grid;
+    grid-template-rows: repeat(4fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic-rose{
+    width: 360px;
+    height: 360px;
+    background: url(../img/rose-block.jpg) no-repeat center center / cover;
+}
+
+.rose-block-text, .light-blue-block-text, 
+.blue-block-text{
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 95px;
+    margin-left: 72px;
+}
+
+.green-block-text{
+    width: 150px;
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 95px;
+    margin-left: 72px;
+}
+
+
+.pic-green{
+    width: 360px;
+    height: 360px;
+    background: url(../img/green-block.jpg)no-repeat center center / cover;
+}
+
+.pic-light-blue{
+    width: 360px;
+    height: 360px;
+    background: url(../img/light-blue-block.jpg)no-repeat center center / cover;
+}
+
+.pic-blue{
+    width: 360px;
+    height: 360px;
+    background: url(../img/blue-block.jpg)no-repeat center center / cover;
+}
+
+.white-block{
+    width: 100%;
+    height: 100px;
+}
+
+.section-five{
+    width: 100%;
+    height: 960px;
+
+}
+
+.blocks-one{
+    display: flex;
+}
+
+.physical-health-block{
+    width: 480px;
+    height: 480px;
+    background: url(../img/physical-health-block.jpg) no-repeat center center / contain;
+
+}
+
+.mental-health-block{
+    width: 480px;
+    height: 480px;
+    background: url(../img/mental-health-block.jpg) no-repeat center center / contain;
+    
+
+}
+
+.strawberries-block{
+    width: 480px;
+    height: 480px;
+    background: url(../img/strawberries-block.jpg) no-repeat center center / contain;
+    
+}
+
+.physical-health-text, .mental-health-text, .strawberries-text{
+    color: #ffffff;
+    width: 157px;
+    height: 72px;
+    font-size: 38px;
+    margin-left: 100px;
+    margin-top: 126px;
+}
+
+
+.blocks-two{
+    display: flex;
+}
+
+.gymnastics-block{
+    width: 480px;
+    height: 480px;
+    background: url(../img/gymnastics-block.jpg) no-repeat center center / contain;
+    
+}
+
+
+.crossfit-block{
+    width: 480px;
+    height: 480px;
+    background: url(../img/crossfit-block.jpg) no-repeat center center / contain;
+    
+}
+
+.aerobics-block{
+    width: 480px;
+    height: 480px;
+    background: url(../img/aerobics-block.jpg) no-repeat center center / contain;
+    
+}
+
+.gymnastics-block-text, .crossfit-block-text, .aerobics-block-text{
+    color: #ffffff;
+    width: 157px;
+    height: 72px;
+    font-size: 38px;
+    margin-left: 100px;
+    margin-top: 126px;
+}
+
+
+.setion-six{
+    width: 100%;
+    height: 480px;
+}
+
+.rectangle-white-part-one{
+    display: flex;
+    justify-content: center;
+}
+
+.white-rectangle-one, .white-rectangle-two, .white-rectangle-three{
+    width: 480px;
+    height: 240px;
+}
+
+.white-rectangle-two-text, .white-rectangle-one-text, .white-rectangle-three-text {
+    width: 298px;
+    height: 84px;
+    color: #22356F;
+    margin-left: 92px;
+}
+
+
+
+.white-rectangle-two-title, .white-rectangle-one-title, .white-rectangle-three-title{
+    width: 234px;
+    height: 36px;
+    color: #22356F;
+    margin-left: 90px;  
+    margin-top: 100px;
+}
+
+.rectangle-white-part-two{
+    display: flex;
+}
+
+.white-rectangle-four, .white-rectangle-five, .white-rectangle-six{
+    width: 480px;
+    height: 240px;
+}
+
+
+.white-rectangle-four-title, .white-rectangle-five-title, .white-rectangle-six-title{
+    width: 234px;
+    height: 36px;
+    color: #22356F;
+    margin-left: 90px;  
+    margin-top: 100px;
+}
+
+
+.white-rectangle-four-text, .white-rectangle-five-text, 
+.white-rectangle-six-text{
+    width: 298px;
+    height: 84px;
+    color: #22356F;
+    margin-left: 92px;
+}
+
+.section-seven{
+    width: 100%;
+    height: 800px;
+    background: url(../img/man-and-white-rectangle-background.jpg) no-repeat center center / cover;
+}
+
+
+.you-know{
+    width: 217px;
+    height: 20px;
+    font-size: 15px;
+    margin-left: 570px;
+
+}
+
+.you-know-text{
+    padding-top: 100px;
+    color: #22356F;
+}
+
+
+
+.big-seven{
+    width: 676px;
+    height: 215px;
+    margin-left: 568px;
+    margin-top: 342px;
+    font-size: 36px;
+    color: #22356F;
+}
+
+
+.get-help-orange{
+    color: #FAB63E;
+    margin-top: 165px;
+    margin-left: 574px;
+    font-size: 16px;
+}
+
+
+
+.section-eigth{
+    width: 100%;
+    height: 600px;
+    background: url(../img/black-smail-background.jpg) no-repeat center center / cover;
+}
+
+
+.section-eigth-contact{
+    width: 108px;
+    height: 14px;
+    margin-left: 177px;
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+
+.smile-title{
+    width: 704px;
+    height: 40px;
+    margin-top: 143px;
+    font-size: 64px;
+    color: #ffffff;
+    margin-left: 175px;
+
+}
+
+
+.smile-text{
+    width: 519px;
+    height: 149px;
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-left: 175px;
+}
+
+.section-eigth-get-help{
+    color: #62D0DF;
+    margin-top: 50px;
+    margin-left: 176px;
+    font-size: 16px;
+}
+
+.footer-background{
+    display: flex;
+    width: 100%;
+    height: 380px;
+    background: url(../img/footer-background.jpg) no-repeat center center / cover;
+}
+
+.footer-first-content{
+    width: 207px;
+    height: 115px;
+    margin-left: 660px;
+
+}
+
+.footer-some-info{
+    margin-top: 80px;
+    padding-bottom: 50px;
+    color: #22356F;
+}
+
+.footer-some-info-text{
+    line-height: 30px;
+    font-size: 14px;
+    color: #5065a5;
+}
+
+
+.footer-second-content{
+    width: 207px;
+    height: 115px;
+    margin-left: 58px;
+    margin-top: 58px;
+}
+
+
+.footer-enfold{
+    margin-top: 23px;
+    padding-bottom: 50px;
+    color: #22356F;
+}
+
+.footer-enfold-text{
+    line-height: 30px;
+    font-size: 14px;
+    color: #5065a5;
+
+}
+
+.contact-footer{
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.tel{
+    color: #5065a5;
+}
+
+.mail{
+    color: #006DFF;
+}
+
+.footer-third-content{
+    width: 207px;
+    height: 115px;
+    margin-left: 60px;
+}
+
+
+.footer-office-hours{
+    margin-top: 80px;
+    padding-bottom: 50px;
+    color: #22356F;
+}
+
+.footer-office-hours-text{
+    color:#5065a5;
+}
+
+
+.footer-rectangle{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #62D0DF;
+}
+
+.copy{
+    margin-left: 199px;
+    margin-top: 28px;
+    color: #ffffff;
+
+}
+.copy-text{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+@media(max-width: 768px){
+    .main-section, .main-section-divб .second-section-blue{
+        max-width: 50%;
+    }
+}
